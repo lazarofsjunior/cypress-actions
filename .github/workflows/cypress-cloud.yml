@@ -9,7 +9,7 @@ on:
 
 jobs:
   cypress-e2e-electron:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Get code
         uses: actions/checkout@v4.1.1
